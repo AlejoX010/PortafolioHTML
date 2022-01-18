@@ -4201,3 +4201,7 @@ i{
 	transform: rotate(360deg);
 	transition: .5s
 }
+
+.p{
+	text-align: justify;
+}
