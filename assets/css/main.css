@@ -4156,3 +4156,48 @@ body.is-preload #banner p {
 	}
 
 }
+
+i{
+	margin-right: 2rem;
+}
+
+.cv i{
+	margin: 0;
+}
+
+.cv:hover{
+	color: #000000;
+	cursor: pointer;
+	transition-duration: .3s;
+
+}
+
+.i:hover{
+	color: #ff0000;
+	cursor: pointer;
+	transition-duration: .3s;
+}
+
+.fa-react:hover{
+	color: #1b76ff;
+	transform: rotate(360deg);
+	transition: .5s
+}
+
+.fa-html5:hover{
+	color: #ee7300;
+	transform: rotate(360deg);
+	transition: .5s
+}
+
+.fa-css3-alt:hover{
+	color: #00d9ff;
+	transform: rotate(360deg);
+	transition: .5s
+}
+
+.fa-js-square:hover{
+	color: #fbff18;
+	transform: rotate(360deg);
+	transition: .5s
+}
