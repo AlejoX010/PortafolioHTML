@@ -177,13 +177,12 @@ a {
 	-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-	border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+	/* border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
 	color: #ffffff;
 	text-decoration: none;
 }
 
-a:hover {
-	border-bottom-color: transparent;
+a:hover {	
 	color: #ffffff !important;
 }
 
@@ -2414,7 +2413,7 @@ input[type="radio"]+label:before {
 /* Image */
 
 .image {
-	
+
 	border: 0;
 	display: inline-block;
 	position: relative;
@@ -2463,7 +2462,7 @@ input[type="radio"]+label:before {
 
 .image.main img {
 	width: 100%;
-} 
+}
 
 /* List */
 
@@ -3800,7 +3799,7 @@ body.is-preload #banner p {
 }
 
 .wrapper.spotlight .image {
-	border-radius: 10%; 
+	border-radius: 10%;
 	margin: 0 3em 2em 0;
 	width: 30em;
 	overflow: hidden;
@@ -3808,7 +3807,7 @@ body.is-preload #banner p {
 }
 
 .wrapper.spotlight .image img {
-	 border-radius: 10%; 
+	border-radius: 10%;
 	width: 100%;
 }
 
@@ -4157,51 +4156,68 @@ body.is-preload #banner p {
 
 }
 
-i{
+i {
 	margin-right: 2rem;
 }
 
-.cv i{
+.cv i {
 	margin: 0;
 }
 
-.cv:hover{
+.cv:hover {
 	color: #000000;
 	cursor: pointer;
 	transition-duration: .3s;
 
 }
 
-.i:hover{
+.i:hover {
 	color: #ff0000;
 	cursor: pointer;
 	transition-duration: .3s;
 }
 
-.fa-react:hover{
+.fa-react:hover {
 	color: #1b76ff;
 	transform: rotate(360deg);
 	transition: .5s
 }
 
-.fa-html5:hover{
+.fa-html5:hover {
 	color: #ee7300;
 	transform: rotate(360deg);
 	transition: .5s
 }
 
-.fa-css3-alt:hover{
+.fa-css3-alt:hover {
 	color: #00d9ff;
 	transform: rotate(360deg);
 	transition: .5s
 }
 
-.fa-js-square:hover{
+.fa-js-square:hover {
 	color: #fbff18;
 	transform: rotate(360deg);
 	transition: .5s
 }
 
-.p{
+.fa-git-alt:hover {
+	color: #e06500;
+	transform: rotate(360deg);
+	transition: .5s
+}
+
+.fa-bootstrap:hover{
+	color: #7d00a3;
+	transform: rotate(360deg);
+	transition: .5s
+}
+
+.p {
 	text-align: justify;
+}
+
+.faf {
+	padding-top: 2rem;
+	margin-right: 10rem;
 }
