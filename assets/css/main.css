@@ -4158,59 +4158,56 @@ body.is-preload #banner p {
 
 i {
 	margin-right: 2rem;
+	transition-property: transform, color ;
+	transition-duration: .3s;
 }
 
 .cv i {
 	margin: 0;
+	transition-property: color ;
+	transition-duration: .3s;
 }
 
 .cv:hover {
 	color: #000000;
 	cursor: pointer;
-	transition-duration: .3s;
-
+	transform: rotate(20deg);
 }
 
 .i:hover {
 	color: #ff0000;
 	cursor: pointer;
-	transition-duration: .3s;
+	transform: rotate(10deg);
+}
+
+.fa-react, .fa-html5, .fa-css3-alt, .fa-js-square, .fa-git-alt{
+	transition-property: transform, color ;
+	transition-duration: .5s;
 }
 
 .fa-react:hover {
 	color: #1b76ff;
 	transform: rotate(360deg);
-	transition: .5s
 }
 
 .fa-html5:hover {
 	color: #ee7300;
 	transform: rotate(360deg);
-	transition: .5s
 }
 
 .fa-css3-alt:hover {
 	color: #00d9ff;
 	transform: rotate(360deg);
-	transition: .5s
 }
 
 .fa-js-square:hover {
 	color: #fbff18;
 	transform: rotate(360deg);
-	transition: .5s
 }
 
 .fa-git-alt:hover {
 	color: #e06500;
 	transform: rotate(360deg);
-	transition: .5s
-}
-
-.fa-bootstrap:hover{
-	color: #7d00a3;
-	transform: rotate(360deg);
-	transition: .5s
 }
 
 .p {
