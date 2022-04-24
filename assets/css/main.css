@@ -182,7 +182,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover {	
+a:hover {
 	color: #ffffff !important;
 }
 
@@ -4158,13 +4158,13 @@ body.is-preload #banner p {
 
 i {
 	margin-right: 2rem;
-	transition-property: transform, color ;
+	transition-property: transform, color;
 	transition-duration: .3s;
 }
 
 .cv i {
 	margin: 0;
-	transition-property: color ;
+	transition-property: color;
 	transition-duration: .3s;
 }
 
@@ -4180,8 +4180,8 @@ i {
 	transform: rotate(10deg);
 }
 
-.fa-react, .fa-html5, .fa-css3-alt, .fa-js-square, .fa-git-alt{
-	transition-property: transform, color ;
+.fa-react, .fa-html5, .fa-css3-alt, .fa-js-square, .fa-git-alt {
+	transition-property: transform, color;
 	transition-duration: .5s;
 }
 
@@ -4216,5 +4216,5 @@ i {
 
 .faf {
 	padding-top: 2rem;
-	margin-right: 10rem;
+
 }
